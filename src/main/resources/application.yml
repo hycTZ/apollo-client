@@ -1,0 +1,16 @@
+server:
+  port: 37000
+spring:
+  application:
+    name: apollo-client
+
+
+apollo:
+  meta: http://192.168.1.76:37000
+  bootstrap:
+    enabled: true
+    namespaces: application
+
+app:
+  id: 9200
+
